@@ -34,7 +34,21 @@ This dataset contains:
 - Features are numerical and anonymized (V1–V28)  
 - Highly imbalanced dataset
 
+## Model Comparison (ANN vs Logistic Regression)
 
+To compare the prediction performance of **Artificial Neural Network (ANN)** and **Logistic Regression**, the following **sample input feature vector** was used:
+
+### ** Comparison Input Data**
+100, -1.35, 0.55, 2.1, 0.34, -0.28, 0.45, 0.12, -0.18, 0.67,
+0.22, -0.31, -0.45, 0.51, -0.80, 0.14, 0.28, -0.19, 0.07,
+0.40, 0.12, -0.13, -0.05, -0.02, -0.06, 0.18, -0.38, 0.21,
+-0.12, 55
+
+### ** Result**
+- **Logistic Regression** → lower accuracy on this input  
+- **Artificial Neural Network (ANN)** → **performed significantly better**, correctly identifying the class  
+
+✔ ANN handles non-linear patterns, making it more suitable for this dataset.
 
 ## Technologies Used
 - Python
